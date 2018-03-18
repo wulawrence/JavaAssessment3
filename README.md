@@ -57,6 +57,8 @@ under the user_management section there should be 2 packages and 9 classes (6 of
 ##### User
 User is a POJO that implements all getters and setters. Refer to the json to see what attributes this will need. User should implement setPassword to be able to take either a String or a user_management.security.Password object. User should also implement two constructors. One constructor should take all the attributes as normal, and the other should take the same arguments except it should take password as a String. The constructor that takes password as a string should create a new Password object and set the user's password to that object.
 
+User should override the toString method. This should return the user's name and email in this format `name - email`.
+
 You will also need to override the equals(Object obj) method. This is because a password salt + hash is unlikely to happen twice so to see two passwords be the same you would have to see they both come from the same input. Because of this, we will assume that two users are equal if their names, emails, and ids are the same. This will simplify our lives and tests.
 
 ##### UserCollection
@@ -103,3 +105,6 @@ mathces should take an argument `String password_plaintext` and check that that 
 getHash should return the hash. 
 
 NOTE: DO NOT IMPLEMENT `setHash()`. If a user changes their password, their password should be replaced with a new Password. All hashes should be generated and never hard coded in.
+
+##### Exceptions
+There is no message the exceptions must return by default, but making the exceptions return nice messages with details on why your code failed will only help you work through these tests.
