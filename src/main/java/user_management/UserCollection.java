@@ -13,6 +13,10 @@ import java.util.Iterator;
 
 public class UserCollection extends ArrayList<User> {
 
+    private String emailPattern = "^([A-Z|a-z|0-9](\\.|_){0,1})+[A-Z|a-z|0-9]\\@([A-Z|a-z|0-9])+((\\.){0,1}[A-Z|a-z|0-9]){2}\\.[a-z]{2,3}$";
+    private String passWPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])";
+
+
     public User findById(int id) {
         Iterator<User> iterator = this.iterator();
         while(iterator.hasNext()){
@@ -52,15 +56,18 @@ public class UserCollection extends ArrayList<User> {
         if (user.getEmail().equals(email)){
             throw new EmailNotAvailableException("This email is taken by another user.");
         }
-        if (!email.matches("[A-Z0-9._%!&#$()*+-]+")){
+        if (!email.matches(emailPattern)){
             throw new InvalidEmailException("This email sucks");
         }
-        if (!password.matches("(?=.*[a-z])") || !password.matches("(?=.*[A-Z])") ||
-                !password.matches("(?=.*[0-9])") || !password.matches("(?=.[!@#\\$%\\^&])") ||
-                !password.matches("(?=.{8,})")){
+        if (password.length() < 8){
+            throw new PasswordTooSimpleException("This password sucks");
+        }
+        if (!password.matches(passWPattern)){
             throw new PasswordTooSimpleException("This password sucks");
         }
         return 0;
     }
+    private int findUniqueId(){
 
+    }
 }
