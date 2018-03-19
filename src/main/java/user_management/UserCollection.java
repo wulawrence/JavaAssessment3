@@ -20,7 +20,7 @@ public class UserCollection extends ArrayList<User> {
         Iterator<User> iterator = this.iterator();
         while(iterator.hasNext()){
             User user = iterator.next();
-            if (user.getEmail().equalsIgnoreCase(email)){
+            if (user.getEmail().equals(email)){
                 return user;
             }
         }
