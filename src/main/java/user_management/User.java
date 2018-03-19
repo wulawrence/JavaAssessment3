@@ -56,7 +56,6 @@ public class User {
         this.password = password;
     }
 
-
     @Override
     public String toString() {
         return String.format("%s - %s", this.getName(), this.getEmail());
@@ -64,6 +63,25 @@ public class User {
 
     @Override
     public boolean equals(Object obj) {
+        if (obj == this){
+            return true;
+        }
+        if (obj == null){
+            return false;
+        }
+        if (!(obj instanceof User)) {
+            return false;
+        }
+        User user = (User) obj;
+        if (this.getName() == user.getName()){
+            return true;
+        }
+        if (this.getEmail() == user.getEmail()){
+            return true;
+        }
+        if (this.getId() == user.getId()){
+            return true;
+        }
         return false;
     }
 }
