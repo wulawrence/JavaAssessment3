@@ -14,7 +14,7 @@ import java.util.Iterator;
 public class UserCollection extends ArrayList<User> {
 
     private String emailPattern = "^([A-Z|a-z|0-9](\\.|_){0,1})+[A-Z|a-z|0-9]\\@([A-Z|a-z|0-9])+((\\.){0,1}[A-Z|a-z|0-9]){2}\\.[a-z]{2,3}$";
-    private String passWPattern = "^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\\$%\\^&\\*])";
+    private String passWPattern = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\\W])(?=.*[a-zA-Z]).{8,}$";
 
 
     public User findById(int id) {
@@ -65,9 +65,18 @@ public class UserCollection extends ArrayList<User> {
         if (!password.matches(passWPattern)){
             throw new PasswordTooSimpleException("This password sucks");
         }
-        return 0;
+        User newGuy = new User(findUniqueId(), name, email, password);
+        this.add(newGuy);
+        return newGuy.getId();
     }
     private int findUniqueId(){
-
+        int startID = 0;
+        User user;
+        do{
+            startID++;
+            user = findById(startID);
+        }
+        while (!(user == null));
+        return startID;
     }
 }

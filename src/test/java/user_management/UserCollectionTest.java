@@ -11,6 +11,7 @@ import user_management.validation.PasswordTooSimpleException;
 import static org.junit.Assert.*;
 
 public class UserCollectionTest {
+
     private UserCollection users;
 
     @Before
