@@ -1,5 +1,8 @@
 package user_management;
 
+import user_management.security.UserAuthenticationFailedException;
+
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -27,7 +30,26 @@ public class UserCollection extends ArrayList<User> {
         return null;
     }
 
-    public User attemptLogin(String email, String password) {
+    public User attemptLogin(String email, String password) throws UserAuthenticationFailedException {
+        Iterator<User> iterator = this.iterator();
+        while (iterator.hasNext()){
+            User user = iterator.next();
+            try {
+                Field matchingEmail = user.getClass().getDeclaredField(email);
+                matchingEmail.setAccessible(true);
+                try {
+                    if (matchingEmail.get(user).equals(email)) {
+                        if (user.getPassword().matches(password)) {
+                            return user;
+                        }
+                    }
+                } catch (IllegalAccessException e) {
+                    throw new UserAuthenticationFailedException("Your username or password is incorrect. Please try again.");
+                }
+            } catch (NoSuchFieldException e) {
+                throw new UserAuthenticationFailedException("Your username or password is incorrect. Please try again.");
+            }
+        }
         return null;
     }
 
