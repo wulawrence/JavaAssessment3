@@ -1,6 +1,8 @@
 package parsing_json;
 
-public class ElementCollection {
+import java.util.ArrayList;
+
+public class ElementCollection extends ArrayList<Element> {
 
     public Element findByAtomicNumber(int atomic_number) {
         return null;

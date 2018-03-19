@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803175a1-7438-4db2-ba03-5c9359012a0e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/user_management/UserCollectionInitializerTest.java" afterPath="$PROJECT_DIR$/src/test/java/user_management/UserCollectionInitializerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java" afterPath="$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/user_management/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/user_management/UserTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,75 +15,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/Element.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="154" column="29" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1348#1349#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1438#1439#0" expanded="true" />
-                <element signature="e#1468#1469#0" expanded="true" />
-                <element signature="e#1497#1498#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1619#1620#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-                <element signature="e#1693#1694#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
-                <element signature="e#1757#1758#0" expanded="true" />
-                <element signature="e#1790#1791#0" expanded="true" />
-                <element signature="e#1819#1820#0" expanded="true" />
-                <element signature="e#1847#1848#0" expanded="true" />
-                <element signature="e#1874#1875#0" expanded="true" />
-                <element signature="e#1902#1903#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#1974#1975#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ElementTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementTest.java">
+      <file leaf-file-name="ElementCollectionInitializer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,12 +59,13 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserCollectionInitializerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/parsing_json/ElementCollectionInitializerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java" />
       </list>
     </option>
   </component>
@@ -396,16 +341,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521465704443</updated>
-      <workItem from="1521465707529" duration="694000" />
+      <workItem from="1521465707529" duration="1128000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ElementTest - 2018.03.19 at 09h 33m 25s.xml">
+      <configuration name="ElementTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694000" />
+    <option name="totallyTimeSpent" value="1128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="37" width="1406" height="792" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -415,9 +364,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -455,81 +404,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/periodic_table.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="154" column="29" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
-          <folding>
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-            <element signature="e#1902#1903#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,11 +458,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="29" lean-forward="false" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parsing_json/ElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollectionInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
