@@ -1,6 +1,9 @@
 package user_management;
 
 import user_management.security.UserAuthenticationFailedException;
+import user_management.validation.EmailNotAvailableException;
+import user_management.validation.InvalidEmailException;
+import user_management.validation.PasswordTooSimpleException;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -31,29 +34,17 @@ public class UserCollection extends ArrayList<User> {
     }
 
     public User attemptLogin(String email, String password) throws UserAuthenticationFailedException {
-        Iterator<User> iterator = this.iterator();
-        while (iterator.hasNext()){
-            User user = iterator.next();
-            try {
-                Field matchingEmail = user.getClass().getDeclaredField(email);
-                matchingEmail.setAccessible(true);
-                try {
-                    if (matchingEmail.get(user).equals(email)) {
-                        if (user.getPassword().matches(password)) {
-                            return user;
-                        }
+        User user = findByEmail(email);
+            if (user.getEmail().equals(email)) {
+                if (user.getPassword().matches(password)) {
+                        return user;
                     }
-                } catch (IllegalAccessException e) {
-                    throw new UserAuthenticationFailedException("Your username or password is incorrect. Please try again.");
                 }
-            } catch (NoSuchFieldException e) {
-                throw new UserAuthenticationFailedException("Your username or password is incorrect. Please try again.");
-            }
-        }
-        return null;
+            throw new UserAuthenticationFailedException("Your username or password is wrong. Please try again.");
     }
 
-    public int createUser(String name, String email, String password) {
-        return 0;
+    public int createUser(String name, String email, String password)
+            throws EmailNotAvailableException, InvalidEmailException, PasswordTooSimpleException {
+
     }
 }

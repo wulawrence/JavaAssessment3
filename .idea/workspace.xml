@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803175a1-7438-4db2-ba03-5c9359012a0e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,17 +13,38 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assessment3$parsing_json_in_assessment3.coverage" NAME="parsing_json in assessment3 Coverage Results" MODIFIED="1521480168202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>parsing_json.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assessment3$user_management_security_in_assessment3.coverage" NAME="user_management.security in assessment3 Coverage Results" MODIFIED="1521480206931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>user_management.security.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assessment3$UserCollectionTest_attemptLogin.coverage" NAME="UserCollectionTest.attemptLogin Coverage Results" MODIFIED="1521479802907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>user_management.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="UserCollection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+            <state relative-caret-position="525">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,8 +53,8 @@
       <file leaf-file-name="UserCollectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="305">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,6 +197,15 @@
               <item name="assessment3" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAssessment3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_management" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assessment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAssessment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,6 +222,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="user_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assessment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaAssessment3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user_management" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserCollectionTest.attemptLogin">
+  <component name="RunManager" selected="JUnit.UserCollectionTest.attemptLoginFailure">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -440,11 +480,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserCollectionTest.attemptLogin" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserCollectionTest.attemptLoginFailure" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.user_management in assessment3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.user_management.security in assessment3" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.parsing_json in assessment3" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserCollectionTest.attemptLoginFailure" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserCollectionTest.attemptLogin" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.user_management.security in assessment3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.parsing_json in assessment3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.user_management in assessment3" />
       </list>
     </recent_temporary>
   </component>
@@ -461,48 +501,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521465704443</updated>
-      <workItem from="1521465707529" duration="11843000" />
+      <workItem from="1521465707529" duration="13345000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 07m 39s.xml">
-      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 08m 12s.xml">
-      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 09m 44s.xml">
-      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 11m 10s.xml">
-      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 12m 18s.xml">
       <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCollectionTest_attemptLoginFailure - 2018.03.19 at 13h 07m 47s.xml">
+    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 15m 25s.xml">
+      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 15m 50s.xml">
+      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 16m 44s.xml">
+      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 17m 13s.xml">
+      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 33m 40s.xml">
+      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCollectionTest_attemptLogin - 2018.03.19 at 13h 34m 08s.xml">
+      <configuration name="UserCollectionTest.attemptLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserCollectionTest_attemptLoginFailure - 2018.03.19 at 13h 34m 47s.xml">
       <configuration name="UserCollectionTest.attemptLoginFailure" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCollectionTest_attemptLoginFailure - 2018.03.19 at 13h 08m 08s.xml">
-      <configuration name="UserCollectionTest.attemptLoginFailure" configurationId="JUnit" />
+    <history-entry file="parsing_json_in_assessment3 - 2018.03.19 at 13h 22m 49s.xml">
+      <configuration name="parsing_json in assessment3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCollectionTest_attemptLoginFailure - 2018.03.19 at 13h 12m 17s.xml">
-      <configuration name="UserCollectionTest.attemptLoginFailure" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_management_in_assessment3 - 2018.03.19 at 12h 45m 29s.xml">
-      <configuration name="user_management in assessment3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="user_management_security_in_assessment3 - 2018.03.19 at 12h 45m 12s.xml">
+    <history-entry file="user_management_security_in_assessment3 - 2018.03.19 at 13h 23m 29s.xml">
       <configuration name="user_management.security in assessment3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11843000" />
+    <option name="totallyTimeSpent" value="13345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="23" width="1406" height="802" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -512,9 +551,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281471" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -523,7 +563,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39886847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -541,7 +581,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -776,20 +816,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="305">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="53" column="33" lean-forward="false" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -798,12 +838,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="58" lean-forward="false" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
+        <state relative-caret-position="525">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
           </folding>
         </state>
       </provider>
